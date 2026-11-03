@@ -1,0 +1,124 @@
+<title>모아찌 개인정보처리방침</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700&display=swap">
+<style>
+/* 법률 문서: 한 단, 읽기 폭 68ch, 표는 가로 스크롤 상자 안 */
+:root {
+  --bg: #fbfaf7; --fg: #1f2326; --muted: #5d656c; --line: #e2e0da; --accent: #2f7d4f; --note: #f1f5f0;
+  --font: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #15181a; --fg: #e8eaeb; --muted: #a3abb2; --line: #2c3236; --accent: #7cc79a; --note: #1c2420; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #15181a; --fg: #e8eaeb; --muted: #a3abb2; --line: #2c3236; --accent: #7cc79a; --note: #1c2420; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 15px; line-height: 1.7; word-break: keep-all;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 32px 64px; }
+main { max-width: 68ch; margin: 0 auto; display: flex; flex-direction: column; gap: 48px; }
+nav { display: flex; gap: 16px; font-size: 14px; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1 { font-size: 26px; line-height: 1.35; margin: 0 0 8px; text-wrap: balance; }
+h2 { font-size: 17px; margin: 32px 0 8px; }
+p, ul { margin: 0 0 12px; }
+ul { padding-left: 20px; }
+.meta { color: var(--muted); font-size: 14px; margin: 0; }
+.lead { background: var(--note); border-radius: 8px; padding: 16px; margin: 16px 0 0; }
+.table { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 8px 12px; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-weight: 600; }
+tr:last-child td { border-bottom: 0; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
+</style>
+
+<main>
+<nav aria-label="언어 / Language"><a href="#ko">한국어</a><a href="#en">English</a></nav>
+
+<section id="ko" lang="ko">
+  <h1>모아찌 개인정보처리방침</h1>
+  <p class="meta">운영자: Nibble Studio · 시행일: 2026년 11월 3일</p>
+  <p class="lead">모아찌는 쇼핑·배달 앱을 열 때 잠깐 멈추게 하고, 쓴 돈을 기록해 예산 안에서 쓰도록 돕는 앱입니다. <strong>운영자 서버가 없으며, 이용자의 정보를 운영자에게 보내지 않습니다.</strong> 모든 기록은 이용자의 휴대폰 안에만 저장됩니다.</p>
+
+  <h2>1. 휴대폰 안에서 처리하는 정보</h2>
+  <div class="table"><table>
+    <tr><th>정보</th><th>왜</th><th>어디에</th><th>얼마나</th></tr>
+    <tr><td>지출 금액·가맹점 이름·시각·분류</td><td>주간 예산과 리포트 계산</td><td>휴대폰 안 앱 전용 저장소</td><td>앱을 지울 때까지(이용자가 지울 수 있음)</td></tr>
+    <tr><td>예산·잠글 앱 목록·설정</td><td>잠금 동작</td><td>휴대폰 안</td><td>앱을 지울 때까지</td></tr>
+    <tr><td>월 수입·한 달 고정비·태어난 해·사는 형태(재무설계, 선택)</td><td>저축·지출 비율과 주간 예산 추천</td><td>휴대폰 안</td><td>앱을 지울 때까지(비워 둘 수 있음)</td></tr>
+    <tr><td>초대 코드</td><td>친구 초대 보상</td><td>휴대폰 안. 처음 실행할 때 구글 플레이 설치 경로(Install Referrer)에서 초대 코드만 한 번 읽음</td><td>앱을 지울 때까지</td></tr>
+    <tr><td>지금 화면에 열린 앱 이름(사용 기록 접근)</td><td>잠근 쇼핑앱이 열렸는지 알기 위해</td><td>저장하지 않음</td><td>보관 안 함</td></tr>
+    <tr><td>결제 알림 글(알림 읽기, 선택, 한국만)</td><td>금액·가맹점 자동 기록</td><td>휴대폰 안 임시 대기열</td><td>앱이 열리면 금액·가맹점만 남기고 원문은 지움. 최대 7일·50건</td></tr>
+  </table></div>
+  <ul>
+    <li>알림 읽기는 이용자가 직접 켜야만 동작하며, 금액과 '승인·결제·이체' 같은 말이 함께 있는 알림만 봅니다. 기록 전에 이용자에게 확인합니다.</li>
+    <li>앱은 다른 앱의 화면 내용, 대화 내용, 비밀번호, 카드 번호 전체를 읽거나 저장하지 않습니다.</li>
+  </ul>
+
+  <h2>2. 밖으로 나가는 정보</h2>
+  <ul>
+    <li><strong>운영자에게: 없음.</strong></li>
+    <li><strong>광고(구글 AdMob):</strong> 광고를 보여 주기 위해 구글이 광고 ID, 기기 정보, 대략적인 위치(IP 기반), 광고 상호작용 정보를 처리할 수 있습니다. 지출·가맹점 정보는 광고 요청에 넣지 않습니다. 자세히: <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></li>
+    <li><strong>결제(구글 플레이):</strong> 프리미엄·광고 제거를 살 때 결제는 구글 플레이가 처리합니다. 앱은 결제 결과(산 상품과 유효 여부)만 받아 휴대폰에 저장하며, 카드 정보는 받지 않습니다.</li>
+    <li><strong>백업 파일(이용자가 직접 만들 때만):</strong> 이용자가 정한 비밀번호로 암호화(AES-256)한 파일을 이용자가 고른 곳에 저장합니다. 운영자에게 보내지 않으며, 비밀번호를 잊으면 운영자도 열 수 없습니다.</li>
+    <li><strong>공유 카드(이용자가 직접 보낼 때만):</strong> 그 달 참아서 모은 금액이 적힌 그림을 이용자가 고른 앱으로 보냅니다. 지출 내역이나 가맹점은 들어가지 않습니다.</li>
+    <li><strong>안드로이드 백업(이용자 본인 구글 계정):</strong> 백업이 켜져 있으면 앱 기록 파일 하나가 이용자 본인 구글 계정에 백업됩니다. 기기가 종단 간 암호화를 지원할 때만 올라가며, 결제 알림 원문은 백업하지 않습니다. 운영자는 이 백업을 볼 수 없습니다.</li>
+  </ul>
+
+  <h2>3. 보관과 파기</h2>
+  <p>앱을 삭제하거나 휴대폰 설정에서 앱 데이터를 지우면 휴대폰 안의 모든 기록이 즉시 지워집니다. 본인 구글 백업은 구글 계정 설정에서 지울 수 있습니다.</p>
+
+  <h2>4. 이용자의 권리</h2>
+  <p>모든 정보가 이용자 휴대폰에만 있으므로, 이용자는 언제든 앱 안에서 기록을 확인하고 앱 데이터를 지워 삭제할 수 있습니다. 알림 읽기·사용 기록 접근·다른 앱 위에 표시 권한은 휴대폰 설정에서 언제든 끌 수 있습니다.</p>
+
+  <h2>5. 만 14세 미만</h2>
+  <p>앱은 만 14세 미만을 대상으로 하지 않습니다.</p>
+
+  <h2>6. 문의(개인정보 보호책임자)</h2>
+  <p>Nibble Studio · 이메일: <span id="contact-ko">nibblestudio01@gmail.com</span></p>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+  <h1>Stashy (Moajji) Privacy Policy</h1>
+  <p class="meta">Operator: Nibble Studio · Effective date: November 3, 2026</p>
+  <p class="lead">The app is called Moajji in Korea, Stashy in English, Celengi in Indonesia, Xu Xu in Vietnam and Poupinho in Brazil. It pauses shopping and food delivery apps when you open them and helps you keep your spending within a budget. <strong>The app has no servers of its own and never sends your information to us.</strong> Everything you record stays on your phone.</p>
+
+  <h2>1. Information processed on your phone</h2>
+  <div class="table"><table>
+    <tr><th>Information</th><th>Why</th><th>Where</th><th>How long</th></tr>
+    <tr><td>Amount, merchant, time and category of each expense</td><td>Weekly budget and reports</td><td>The app's private storage on your phone</td><td>Until you delete the app or the data</td></tr>
+    <tr><td>Budget, apps to pause, settings</td><td>Pausing apps</td><td>On your phone</td><td>Until you delete the app</td></tr>
+    <tr><td>Monthly income, fixed costs, birth year, living situation (money plan, optional)</td><td>Suggested ratios and weekly budget</td><td>On your phone</td><td>Until you delete the app (can be left blank)</td></tr>
+    <tr><td>Invite codes</td><td>Invite rewards</td><td>On your phone. On first launch the app reads only the invite code from Google Play's install referrer, once</td><td>Until you delete the app</td></tr>
+    <tr><td>Name of the app currently on screen (Usage access)</td><td>To know when an app you chose to pause is opened</td><td>Not stored</td><td>Not kept</td></tr>
+    <tr><td>Payment notification text (Notification access, optional, South Korea only)</td><td>To record amount and merchant automatically</td><td>A temporary queue on your phone</td><td>Only amount and merchant are kept once you open the app; at most 7 days and 50 notifications</td></tr>
+  </table></div>
+  <ul>
+    <li>Notification access works only if you turn it on yourself and is offered only in South Korea. You confirm each record before it is saved.</li>
+    <li>The app never reads or stores other apps' screen content, your conversations, passwords or full card numbers.</li>
+  </ul>
+
+  <h2>2. Information that leaves your phone</h2>
+  <ul>
+    <li><strong>To us: nothing.</strong></li>
+    <li><strong>Ads (Google AdMob):</strong> Google may process your advertising ID, device information, approximate location (based on IP) and ad interactions to show ads. Your expenses and merchants are never included in ad requests. Details: <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></li>
+    <li><strong>Purchases (Google Play):</strong> Google Play handles payment for Premium and ad removal. The app receives only the result (which product and whether it is active) and stores it on your phone. It never receives your card details.</li>
+    <li><strong>Backup file (only when you make one):</strong> saved, encrypted (AES-256) with a password you choose, to a place you choose. It is never sent to us, and nobody can open it without the password.</li>
+    <li><strong>Share card (only when you share):</strong> an image showing how much you held off that month, sent to the app you choose. It contains no expenses or merchants.</li>
+    <li><strong>Android backup (your own Google account):</strong> if Android backup is on, one file with your records is backed up to your own Google account, only when your device supports end-to-end encryption. Payment notification text is never backed up. We cannot see this backup.</li>
+  </ul>
+
+  <h2>3. Keeping and deleting</h2>
+  <p>Deleting the app, or clearing its data in your phone's settings, immediately deletes everything on your phone. You can delete your Google backup in your Google account settings.</p>
+
+  <h2>4. Your rights</h2>
+  <p>Because everything is on your phone, you can see your records in the app at any time and delete them by clearing the app's data. You can turn off Notification access, Usage access and Display over other apps in your phone's settings at any time.</p>
+
+  <h2>5. Children</h2>
+  <p>The app is not intended for children under 14.</p>
+
+  <h2>6. Contact</h2>
+  <p>Nibble Studio · Email: <span id="contact-en">nibblestudio01@gmail.com</span></p>
+</section>
+</main>
